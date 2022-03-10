@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 
 @media screen (min-width 400px) AND (max-width 764px) {
     .header__general{
@@ -75,7 +75,7 @@
 }
 
 .main__background{
-    background-image: linear-gradient(#ffcd70, #ffb347);
+    background-image: linear-gradient(#317873, #004953, #004242);
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: whitesmoke;
 }
@@ -145,7 +145,7 @@
         "mainImage  mainText mainText"
         "videoText  mainVideo mainVideo";
     grid-template-rows:  auto auto auto;
-    grid-template-columns:  33% 33% auto%;
+    grid-template-columns:  33% 33% auto;
 }
 
 .mainImage__grid{
@@ -171,4 +171,3 @@
     grid-auto-flow: row;
 }
 
-}
