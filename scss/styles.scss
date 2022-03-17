@@ -35,6 +35,7 @@
         text-align: center;
         font-family: $handwriting, cursive;
         margin: 20 40 20 20;
+        color: map-get($fontcolors,"title");
  }
 
 .main__h2{
@@ -52,6 +53,7 @@
 }
 
 .main__video{
+    @extend .main_p;
     padding-top: 100; 
     margin: 16px 16 px 16 px 16 px;
     text-align: center;
@@ -64,7 +66,7 @@
     padding: 20 20 20 20;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    color: whitesmoke;
+    color: map-get($fontcolors, plainText);
     background-image: radial-gradient(circle at center, mediumturquoise 0, lightseagreen, teal 100%);
 }
 

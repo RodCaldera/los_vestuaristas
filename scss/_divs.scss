@@ -1,0 +1,17 @@
+/* Quiero hacer unos divs para las dos diferentes secciones de "Qué hacemos" Voy a decidir aún si el diseño queda o se va para la entrega final*/
+
+@mixin div ($background){
+  background-color: ($background);
+  width: 100%;
+  height:fit-content;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.div1{
+  @include div (black);
+}
+
+.div2{
+  @include div (whitesmoke);
+}
