@@ -1,4 +1,4 @@
-header__general{
+.header__general{
     background-image: radial-gradient(circle at center, mediumturquoise 0, lightseagreen, teal 100%);
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,12 +12,13 @@ header__general{
     flex-flow: row wrap;
     align-items: baseline;
     justify-content: space-evenly;
+    
     title{
         font-size: 50px;
         font-variant: small-caps;
         font-weight: 700;
-        font-family: $header-title;
-        
+        font-family: arial;
+        }
     navtext{
             font-variant: small-caps;
             text-align: right;
@@ -44,6 +45,6 @@ header__general{
                 text-decoration: none;
                     }
             }
-            }
+            
             
 }
